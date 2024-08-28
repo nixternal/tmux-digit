@@ -3,6 +3,7 @@
 interpolation=(
 	"#S"
 	"#I"
+	"#P"
 )
 
 digits=(⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳)
@@ -16,6 +17,7 @@ get_command() {
 commands=(
 	"$(get_command S)"
 	"$(get_command I)"
+	"$(get_command P)"
 )
 
 get_tmux_option() {
